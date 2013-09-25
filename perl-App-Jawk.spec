@@ -1,14 +1,14 @@
 %define upstream_name    App-Jawk
-%define upstream_version 0.04
+%define upstream_version 0.10
 
 Name:		perl-%{upstream_name}
 Version:	%perl_convert_version %{upstream_version}
-Release:	3
+Release:	1
 Summary:	Awk, but post-modern and perly
 License:	Artistic
 Group:		Development/Perl
 Url:		http://search.cpan.org/dist/%{upstream_name}
-Source0:	http://search.cpan.org/CPAN/authors/id/J/JO/JOSHR/%{upstream_name}-%{upstream_version}.tar.gz
+Source0:	http://www.cpan.org/authors/id/J/JO/JOSHR/App-Jawk-%{upstream_version}.tar.gz
 BuildRequires:	perl-devel
 BuildArch:	noarch
 
@@ -34,9 +34,12 @@ perl Makefile.PL INSTALLDIRS=vendor
 %doc ChangeLog Changes MANIFEST META.yml README
 %{_bindir}/jawk
 %{_mandir}/man1/*
+%{perl_vendorlib}/App/Jawk.pm
+%{_mandir}/man3/App::Jawk.3pm.xz
 
 %changelog
 * Wed Apr 20 2011 Sandro Cazzaniga <kharec@mandriva.org> 0.40.0-1mdv2011.0
 + Revision: 656137
 - import perl-App-Jawk
+
 

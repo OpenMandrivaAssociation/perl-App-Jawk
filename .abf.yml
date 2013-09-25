@@ -1,2 +1,4 @@
+removed_sources:
+  App-Jawk-0.04.tar.gz: 04a7c7085d02ec3f38e293df0f58cf7c9aad181c
 sources:
-  "App-Jawk-0.04.tar.gz": 04a7c7085d02ec3f38e293df0f58cf7c9aad181c
+  App-Jawk-0.10.tar.gz: ed5b14bccabb61c54f35f1c478262945f5fa246b
