@@ -7,7 +7,7 @@ Release:	3
 Summary:	Awk, but post-modern and perly
 License:	Artistic
 Group:		Development/Perl
-Url:		http://search.cpan.org/dist/%{upstream_name}
+Url:		https://search.cpan.org/dist/%{upstream_name}
 Source0:	http://www.cpan.org/authors/id/J/JO/JOSHR/App-Jawk-%{upstream_version}.tar.gz
 BuildRequires:	perl-devel
 BuildArch:	noarch
